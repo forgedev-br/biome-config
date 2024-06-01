@@ -19,17 +19,11 @@ npx @biomejs/biome init
 Add a script to package.json:
 ```json
 "scripts": {
-  // other scripts
   "lint": "npx @biomejs/biome check src"
 }
 ```
 
-Configure your project:
-```bash
-npx @biomejs/biome init
-```
-
-Inside `biome.json` file
+Extend the configuration within `biome.json` file:
 ```json
 {
   "extends": ["@forgedev-br/biome-config/biome"]
