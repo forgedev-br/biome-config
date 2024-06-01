@@ -1,12 +1,15 @@
 {
   "name": "@forgedev-br/biome-config",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "contributors": [
     "Adeonir Kohl <adeonir@gmail.com> (https://adeonir.dev/)",
-    "Wilson Faustino <wilson.rfaustino@gmail.com> (http://example.com/~contributortwo)"
+    "Wilson Faustino <wilson.rfaustino@gmail.com>"
   ],
   "description": "Biome configuration used by ForgeDev BR",
-  "private": true,
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
   "license": "MIT",
   "type": "module",
   "exports": {
@@ -19,6 +22,11 @@
     "javascript",
     "typescript"
   ],
+  "scripts": {
+    "changeset": "changeset",
+    "release": "changeset version",
+    "publish": "changeset publish"
+  },
   "peerDependencies": {
     "@biomejs/biome": "^1.7.3"
   },
@@ -27,5 +35,8 @@
   },
   "engines": {
     "node": ">=20"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.27.5"
   }
 }
