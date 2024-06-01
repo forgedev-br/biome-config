@@ -1,16 +1,21 @@
 {
-  "name": "@forgedev-br/eslint-config",
+  "name": "@forgedev-br/biome-config",
   "version": "1.0.0",
   "contributors": [
     "Adeonir Kohl <adeonir@gmail.com> (https://adeonir.dev/)",
     "Wilson Faustino <wilson.rfaustino@gmail.com> (http://example.com/~contributortwo)"
   ],
-  "description": "ESLint configuration used by ForgeDev BR",
-  "main": "index.js",
-  "private": false,
+  "description": "Biome configuration used by ForgeDev BR",
+  "private": true,
   "license": "MIT",
+  "files": [
+    "base.json",
+    "next.json",
+    "node.json",
+    "vite.json"
+  ],
   "keywords": [
-    "eslint",
+    "biome",
     "lint",
     "prettier",
     "format",
@@ -19,20 +24,15 @@
     "vite",
     "node",
     "react",
-    "nextjs",
-    "tailwindcss"
+    "nextjs"
   ],
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "peerDependencies": {
-    "eslint": "^8",
-    "prettier": "^3",
-    "typescript": "^5"
+    "@biomejs/biome": "^1.7.3"
   },
   "dependencies": {
-    "eslint": "^8.57.0",
-    "prettier": "^3.2.5",
-    "typescript": "^5.4.5"
+    "@biomejs/biome": "^1.7.3"
+  },
+  "engines": {
+    "node": ">=20"
   }
 }
