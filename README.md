@@ -22,7 +22,7 @@ Add a script to package.json:
 ```json
 "scripts": {
   // other scripts
-  "link": "npx @biomejs/biome check --apply ./src"
+  "lint": "npx @biomejs/biome check --apply ./src"
 }
 ```
 
