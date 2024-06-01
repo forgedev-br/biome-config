@@ -9,7 +9,6 @@
   "private": true,
   "license": "MIT",
   "files": [
-    "base.json",
     "next.json",
     "node.json",
     "vite.json"
@@ -17,7 +16,6 @@
   "keywords": [
     "biome",
     "lint",
-    "prettier",
     "format",
     "javascript",
     "typescript",
