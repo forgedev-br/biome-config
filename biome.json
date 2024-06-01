@@ -1,0 +1,73 @@
+{
+  "$schema": "https://biomejs.dev/schemas/1.7.3/schema.json",
+  "formatter": {
+    "enabled": true,
+    "formatWithErrors": false,
+    "indentStyle": "space",
+    "indentWidth": 2,
+    "lineEnding": "lf",
+    "lineWidth": 120,
+    "attributePosition": "auto"
+  },
+  "linter": {
+    "enabled": true,
+    "rules": {
+      "recommended": true,
+      "style": {
+        "noNamespaceImport": "off",
+        "useFilenamingConvention": {
+          "level": "error",
+          "options": {
+            "requireAscii": true,
+            "filenameCases": [
+              "kebab-case"
+            ]
+          }
+        },
+        "useFragmentSyntax": "error"
+      },
+      "suspicious": {
+        "noConsoleLog": "error"
+      }
+    }
+  },
+  "organizeImports": {
+    "enabled": true
+  },
+  "javascript": {
+    "formatter": {
+      "jsxQuoteStyle": "double",
+      "quoteProperties": "asNeeded",
+      "trailingComma": "es5",
+      "semicolons": "asNeeded",
+      "arrowParentheses": "always",
+      "bracketSpacing": true,
+      "bracketSameLine": false,
+      "quoteStyle": "single",
+      "attributePosition": "auto"
+    },
+    "globals": [
+      "React",
+      "JSX",
+      "document",
+      "navigator",
+      "window"
+    ]
+  },
+  "overrides": [
+    {
+      "include": [
+        "app/**/{layout,page,route}.tsx",
+        "tailwind.config.{js,ts,cjs}",
+        "postcss.config.{js,ts,cjs}"
+      ],
+      "linter": {
+        "rules": {
+          "style": {
+            "noDefaultExport": "error"
+          }
+        }
+      }
+    }
+  ]
+}

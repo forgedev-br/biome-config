@@ -8,21 +8,16 @@
   "description": "Biome configuration used by ForgeDev BR",
   "private": true,
   "license": "MIT",
-  "files": [
-    "next.json",
-    "node.json",
-    "vite.json"
-  ],
+  "type": "module",
+  "exports": {
+    "./biome": "./biome.json"
+  },
   "keywords": [
     "biome",
     "lint",
     "format",
     "javascript",
-    "typescript",
-    "vite",
-    "node",
-    "react",
-    "nextjs"
+    "typescript"
   ],
   "peerDependencies": {
     "@biomejs/biome": "^1.7.3"

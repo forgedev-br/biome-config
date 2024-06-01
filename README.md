@@ -6,11 +6,9 @@
 
 ## Setup
 
-### Any Project
-
 Install dependencies:
 ```bash
-npm i -D @biomejs/biome
+npm i -D @biomejs/biome @forgedev-br/biome-config
 ```
 
 Configure your project:
@@ -22,17 +20,8 @@ Add a script to package.json:
 ```json
 "scripts": {
   // other scripts
-  "lint": "npx @biomejs/biome check --apply ./src"
+  "lint": "npx @biomejs/biome check src"
 }
-```
-
----
-
-#### Node.js
-
-Install dependencies:
-```bash
-npm i -D @forgedev-br/biome-config
 ```
 
 Configure your project:
@@ -43,34 +32,6 @@ npx @biomejs/biome init
 Inside `biome.json` file
 ```json
 {
-  "extends": ["@forgedev-br/biome-config/node"]
-}
-```
-
-#### React (with Next.js)
-
-Install dependencies:
-```bash
-npm i -D @forgedev-br/biome-config
-```
-
-Inside `biome.json` file
-```json
-{
-  "extends": ["@forgedev-br/biome-config/next"]
-}
-```
-
-#### React (with Vite)
-
-Install dependencies:
-```bash
-npm i -D @forgedev-br/biome-config
-```
-
-Inside `biome.json` file
-```json
-{
-  "extends": ["@forgedev-br/biome-config/vite"]
+  "extends": ["@forgedev-br/biome-config/biome"]
 }
 ```
