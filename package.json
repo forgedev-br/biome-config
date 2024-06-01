@@ -6,6 +6,8 @@
     "Wilson Faustino <wilson.rfaustino@gmail.com>"
   ],
   "description": "Biome configuration used by ForgeDev BR",
+  "repository": "https://github.com/forgedev-br/biome-config",
+  "bugs": "https://github.com/forgedev-br/biome-config/issues",
   "private": false,
   "publishConfig": {
     "access": "public"
@@ -24,7 +26,7 @@
   ],
   "scripts": {
     "changeset": "changeset",
-    "release": "changeset version",
+    "version": "changeset version",
     "publish": "changeset publish"
   },
   "peerDependencies": {
