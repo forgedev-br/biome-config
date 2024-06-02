@@ -1,5 +1,11 @@
 # @forgedev-br/biome-config
 
+## 1.1.2
+
+### Patch Changes
+
+- Update formatting rules
+
 ## 1.1.1
 
 ### Patch Changes
