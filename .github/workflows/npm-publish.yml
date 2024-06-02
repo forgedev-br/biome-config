@@ -1,4 +1,4 @@
-name: Release and publish on NPM
+name: Release
 
 on:
   push:
@@ -22,9 +22,6 @@ jobs:
 
       - name: Install dependencies
         run: npm install
-
-      - name: Apply version changes
-        run: npm run version
 
       - name: Create release and publish to npm
         id: changesets
