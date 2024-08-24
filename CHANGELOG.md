@@ -1,5 +1,11 @@
 # @forgedev-br/biome-config
 
+## 1.1.3
+
+### Patch Changes
+
+- Update to v1.8.3
+
 ## 1.1.2
 
 ### Patch Changes
