@@ -9,7 +9,7 @@
 Install dependencies:
 
 ```bash
-npm i -D @biomejs/biome @forgedev-br/biome-config
+npm add --save-dev @biomejs/biome @forgedev-br/biome-config
 ```
 
 Configure your project:

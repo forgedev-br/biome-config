@@ -1,6 +1,7 @@
 {
-  "$schema": "https://biomejs.dev/schemas/1.8.3/schema.json",
+  "$schema": "https://biomejs.dev/schemas/1.9.4/schema.json",
   "formatter": {
+    "enabled": true,
     "indentStyle": "space",
     "indentWidth": 2,
     "lineWidth": 120
@@ -9,6 +10,7 @@
     "formatter": {
       "bracketSameLine": false,
       "bracketSpacing": true,
+      "jsxQuoteStyle": "single",
       "quoteStyle": "single",
       "semicolons": "asNeeded"
     },
@@ -18,6 +20,15 @@
       "document",
       "navigator",
       "window"
+    ]
+  },
+  "files": {
+    "ignoreUnknown": false,
+    "ignore": [
+      "node_modules",
+      "dist",
+      "build",
+      "public"
     ]
   },
   "json": {
