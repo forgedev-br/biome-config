@@ -10,7 +10,7 @@
     "formatter": {
       "bracketSameLine": false,
       "bracketSpacing": true,
-      "jsxQuoteStyle": "single",
+      "jsxQuoteStyle": "double",
       "quoteStyle": "single",
       "semicolons": "asNeeded"
     },
