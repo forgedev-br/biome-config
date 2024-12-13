@@ -7,16 +7,19 @@
 ## Setup
 
 Install dependencies:
+
 ```bash
 npm i -D @biomejs/biome @forgedev-br/biome-config
 ```
 
 Configure your project:
+
 ```bash
 npx @biomejs/biome init
 ```
 
 Add a script to package.json:
+
 ```json
 "scripts": {
   "lint": "npx @biomejs/biome check src"
@@ -24,6 +27,7 @@ Add a script to package.json:
 ```
 
 Extend the configuration within `biome.json` file:
+
 ```json
 {
   "extends": ["@forgedev-br/biome-config/biome"]
