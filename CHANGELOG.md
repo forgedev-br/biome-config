@@ -1,5 +1,11 @@
 # @forgedev-br/biome-config
 
+## 1.1.5
+
+### Patch Changes
+
+- Update biome settings
+
 ## 1.1.4
 
 ### Patch Changes
