@@ -1,5 +1,12 @@
 # @forgedev-br/biome-config
 
+## 1.1.4
+
+### Patch Changes
+
+- Update to v1.9.4
+- Update formatting rules
+
 ## 1.1.3
 
 ### Patch Changes
