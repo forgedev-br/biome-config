@@ -1,5 +1,12 @@
 # @forgedev-br/biome-config
 
+## 1.1.6
+
+### Patch Changes
+
+- Fix biome rules
+- Add schema to biome.json on readme
+
 ## 1.1.5
 
 ### Patch Changes
