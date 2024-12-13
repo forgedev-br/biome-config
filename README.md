@@ -18,6 +18,15 @@ Configure your project:
 npx @biomejs/biome init
 ```
 
+Extend the configuration within `biome.json` file:
+
+```json
+{
+  "$schema": "https://biomejs.dev/schemas/1.9.4/schema.json",
+  "extends": ["@forgedev-br/biome-config/biome"]
+}
+```
+
 Add a script to package.json:
 
 ```json
@@ -26,10 +35,4 @@ Add a script to package.json:
 }
 ```
 
-Extend the configuration within `biome.json` file:
-
-```json
-{
-  "extends": ["@forgedev-br/biome-config/biome"]
-}
-```
+> **Note:** You can also run `npx @biomejs/biome check --write` to automatically fix the code.
