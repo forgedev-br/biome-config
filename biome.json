@@ -53,6 +53,16 @@
         },
         "useFragmentSyntax": "error"
       },
+      "nursery": {
+        "useSortedClasses": {
+          "fix": "safe",
+          "level": "warn",
+          "options": {
+            "attributes": ["classList"],
+            "functions": ["cn", "clsx", "cva", "tw"]
+          }
+        }
+      },
       "suspicious": {
         "noConsoleLog": "error"
       }
