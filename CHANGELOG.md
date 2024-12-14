@@ -1,5 +1,11 @@
 # @forgedev-br/biome-config
 
+## 1.2.0
+
+### Minor Changes
+
+- Update linter rules to deal with css class sorting
+
 ## 1.1.6
 
 ### Patch Changes
